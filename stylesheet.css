@@ -1,0 +1,183 @@
+body {
+  background-color: #222921;
+  font-family: "Nunito", sans-serif;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.text-white span {
+  color: rgb(200, 9, 9);
+}
+
+.text-white {
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.main h2,
+h3 {
+  font-weight: 100;
+  font-size: 1.8rem;
+  word-spacing: 2;
+  line-height: 2;
+}
+
+.bulb h2 {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 2rem;
+  border-bottom: 0.5px solid grey;
+}
+
+.bulb p {
+  line-height: 2;
+  margin-top: 35px;
+  color: #d4d3d3;
+  font-weight: 100;
+}
+
+.text-white .name {
+  letter-spacing: 10px;
+  color: rgb(255, 249, 249);
+  font-size: 2.5rem;
+}
+
+.content {
+  margin: 100px 0;
+}
+
+.name {
+  color: rgb(170, 33, 33);
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #733b3b;
+  width: 100%;
+}
+
+.aside h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  border-bottom: 0.5px solid #ffdbdb;
+}
+
+.aside a span {
+  color: #ffffff;
+  line-height: 2;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.aside a {
+  color: #90bdee;
+}
+
+.aside a:hover {
+  text-decoration: none;
+}
+
+.aside aside {
+  text-align: center;
+  margin-top: 30px;
+  color: #a6a6a6;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.contact {
+  background-color: #733b3b;
+}
+
+
+nav {
+  background: white;
+  box-shadow: grey;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  transform: rotate(90deg);
+}
+
+.links a {
+  font-size: 1.25rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #222921;
+}
+
+.links a:hover {
+  padding-left: 1.7rem;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+.links {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 0;
+}
+.show-links {
+  height: 8rem;
+}
+
+@media screen and (min-width: 800px) {
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5 rem 1rem;
+  }
+
+.nav-header {
+  padding: 0;
+}
+.nav-toggle {
+  display: none;
+}
+.links {
+  height: auto;
+  display: flex;
+  margin-bottom: 0;
+
+}
+.links a {
+  padding: 0;
+  margin: 0 0.5rem;
+}
+.links a:hover {
+  padding: 0;
+  background: transparent;
+}
